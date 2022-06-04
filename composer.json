@@ -1,0 +1,7 @@
+{
+    "name": "marianchprnk/simple",
+    "description": "This package allows you to create simple page for showing objects and editing/creating them.",
+    "require": {
+        "php": ">=7.4"
+    }
+}
