@@ -2,6 +2,7 @@
     "name": "marianchprnk/simple",
     "description": "This package allows you to create simple page for showing objects and editing/creating them.",
     "license": "MIT",
+    "version": "1",
     "require": {
         "php": ">=7.4"
     }
