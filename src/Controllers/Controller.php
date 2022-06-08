@@ -1,8 +1,8 @@
 <?php
 
-namespace Controllers;
+namespace Nimarya\Simple\Controllers;
 
-use Entities\View;
+use Nimarya\Simple\Entities\View;
 
 class Controller
 {

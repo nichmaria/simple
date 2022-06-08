@@ -1,8 +1,8 @@
 <?php
 
-namespace Entities;
+namespace Nimarya\Simple\Entities;
 
-use Exceptions\MultiException;
+use Nimarya\Simple\Exceptions\MultiException;
 
 class News extends Model
 {

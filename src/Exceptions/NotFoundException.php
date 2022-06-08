@@ -1,6 +1,6 @@
 <?php
 
-namespace Exceptions;
+namespace Nimarya\Simple\Exceptions;
 
 class NotFoundException extends \Exception
 {

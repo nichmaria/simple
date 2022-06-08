@@ -1,11 +1,11 @@
 <?php
 
-namespace Controllers;
+namespace Nimarya\Simple\Controllers;
 
-use Exceptions\MultiException;
-use Entities\News;
-use Exceptions\NotFoundException;
-use Entities\AdminDataTable;
+use Nimarya\Simple\Exceptions\MultiException;
+use Nimarya\Simple\Entities\News;
+use Nimarya\Simple\Exceptions\NotFoundException;
+use Nimarya\Simple\Entities\AdminDataTable;
 
 
 class ArticlesController extends Controller

@@ -1,6 +1,6 @@
 <?php
 
-namespace Controllers;
+namespace Nimarya\Simple\Controllers;
 
 class AuthorsController extends Controller
 {

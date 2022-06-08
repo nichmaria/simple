@@ -1,8 +1,12 @@
 {
-    "name": "marianchprnk/simple",
-    "description": "This package allows you to create simple page for showing objects and editing/creating them.",
+    "name": "nimarya/simple",
+    "description": "my library",
     "license": "MIT",
-    "version": "1",
+    "autoload": {
+        "psr-4": {
+            "Nimarya\\Simple\\": "src/"
+        }
+    },
     "require": {
         "php": ">=7.4"
     }

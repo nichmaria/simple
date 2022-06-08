@@ -1,8 +1,8 @@
 <?php
 
-namespace Exceptions;
+namespace Nimarya\Simple\Exceptions;
 
-use Traits\ArrayTrait;
+use Nimarya\Simple\Traits\ArrayTrait;
 
 class MultiException extends \Exception implements \ArrayAccess, \Iterator
 {

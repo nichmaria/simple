@@ -1,8 +1,8 @@
 <?php
 
-namespace Entities;
+namespace Nimarya\Simple\Entities;
 
-use Traits\DinamicPropertiesTrait;
+use Nimarya\Simple\Traits\DinamicPropertiesTrait;
 
 class View
 {

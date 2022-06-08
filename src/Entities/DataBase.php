@@ -1,9 +1,9 @@
 <?php
 
-namespace Entities;
+namespace Nimarya\Simple\Entities;
 
 use PDOException;
-use Exceptions\DbException;
+use Nimarya\Simple\Exceptions\DbException;
 
 class DataBase
 {

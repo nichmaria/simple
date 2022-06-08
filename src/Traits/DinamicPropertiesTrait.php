@@ -1,6 +1,6 @@
 <?php
 
-namespace Traits;
+namespace Nimarya\Simple\Traits;
 
 trait DinamicPropertiesTrait
 {

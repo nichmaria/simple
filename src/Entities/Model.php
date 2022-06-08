@@ -1,8 +1,8 @@
 <?php
 
-namespace Entities;
+namespace Nimarya\Simple\Entities;
 
-use Exceptions\NotFoundException;
+use Nimarya\Simple\Exceptions\NotFoundException;
 
 abstract class Model
 {

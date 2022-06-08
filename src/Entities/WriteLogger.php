@@ -1,6 +1,6 @@
 <?php
 
-namespace Entities;
+namespace Nimarya\Simple\Entities;
 
 use Psr\Log\LoggerInterface;
 
