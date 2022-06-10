@@ -28,7 +28,7 @@ abstract class Model
         return $database->query($sql, static::class, []);
     }
 
-    public static function getById(int|null $id): static|null
+    public static function getById(int|null $id): static
     {
         $config = Config::make();
         $database = DataBase::make($config->dsn, $config->login, $config->password);
@@ -36,14 +36,12 @@ abstract class Model
         $substitution = [':id' => $id];
         $sql = 'SELECT * FROM ' . static::TABLE . ' WHERE id = :id';
         $array = $database->query($sql, static::class, $substitution);
+
         if (!empty($array)) {
             return $array[0];
         }
-        if (empty($array) && static::class == 'Entities\News') {
+        if (empty($array)) {
             throw new NotFoundException();
-        }
-        if (empty($array) && static::class == 'Entities\Author') {
-            return null;
         }
     }
 
